@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="jquery-3.7.1.min.map">
+    <link rel="stylesheet" href="style.css">
+    <title>Site Ingressos Oficial</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="Logo"><img src="img/logo-buteco-despedida-1x.png" width="100px" alt="Logo"></a>
+        <div class="menu-toggle"></i></div>
+        
+        <ul class="navbar"> 
+            <li><a href="2index.html"><img src="Botão/3.png" width="150px" alt=""></a></li>
+            <li><a href="index.html"><img src="Botão/2.png" width="150px" alt=""></a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <div class="content active">
+            <img src="" alt="" class="movie-title" />
+            <h4>
+                <span>Local</span><span><i>Boston</i></span>
+                <span> <br>26</span>de Outubro</span>
+            </h4>
+            <p>O evento "Buteco Despedida" de Gusttavo Lima em Boston está programado para o dia 26 de outubro de 2024. O show será realizado no Parking Lot Palladium, localizado em Worcester, MA. Este evento faz parte da turnê de despedida do Buteco, um festival iniciado por Gusttavo Lima que combina música sertaneja com outros estilos e tem sido um sucesso desde 2018.
+                Os portões abrirão às 12:00 PM, e o show contará com Gusttavo Lima e convidados. Os ingressos estão disponíveis em diferentes categorias,Camarote,Area vip e pista. Garanta o seu ingresso e vem curtir com a gente!​</p>
+            <div class="button">
+                <a href="#">Ingresso Disponível</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> Comprar Ingresso</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <a class="carousel-item">
+                    <img src="img/Filmes/5.jpg"></a>
+
+                <a class="carousel-item" alt="">
+                    <img src="img/Filmes/6.jpg"></a>
+
+                <a class="carousel-item"  alt="">
+                    <img src="img/Filmes/7.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+
+        // Toggle menu on click
+        $('.menu-toggle').click(function() {
+            $('.navbar').toggleClass('active');
+        });
+    });
+    </script>
+</body>
+</html>
